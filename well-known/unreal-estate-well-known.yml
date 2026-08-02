@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of unrealestate.com
+host: https://unrealestate.com
+note: Host is fronted by a Vercel bot challenge (x-vercel-mitigated challenge); every
+  probed path returned HTTP 429, so no well-known documents could be retrieved. The
+  api. and app. subdomains do not resolve.
+documents:
+- path: /.well-known/security.txt
+  status: 429
+- path: /.well-known/openid-configuration
+  status: 429
+- path: /.well-known/oauth-authorization-server
+  status: 429
+- path: /.well-known/api-catalog
+  status: 429
+- path: /.well-known/ai-plugin.json
+  status: 429
+- path: /llms.txt
+  status: 429
+- path: /robots.txt
+  status: 429

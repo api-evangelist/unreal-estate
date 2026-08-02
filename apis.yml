@@ -1,7 +1,24 @@
 aid: unreal-estate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unreal-estate.png
 name: Unreal Estate
-description: Unreal Estate is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Unreal Estate (formerly USRealty.com) is a tech-enabled flat-fee real estate
+  marketplace and brokerage that lets home sellers list on their local MLS without paying
+  a traditional listing commission, with flat-fee plans ranging from $0 to $449 upfront
+  plus 0.5% at closing, available nationwide except South Dakota. The company also offers
+  buyer services, rental listings with cash rebates, and AI-powered market intelligence,
+  and was acquired by Abode in November 2024. Unreal Estate publishes no public developer
+  program or API.
 url: https://raw.githubusercontent.com/api-evangelist/unreal-estate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- PropTech
+- MLS
+- Flat Fee Listings
+- Home Buying
+- Home Selling
+- Brokerage
+- Rentals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://unrealestate.com/
+  url: https://www.unrealestate.com/
+- type: Blog
+  url: https://www.unrealestate.com/blog
+- type: DomainSecurity
+  url: security/unreal-estate-domain-security.yml
+- type: LLMsTxt
+  url: llms/unreal-estate-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

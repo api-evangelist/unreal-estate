@@ -1,0 +1,21 @@
+# Unreal Estate
+
+> Unreal Estate (formerly USRealty.com) is a tech-enabled flat-fee real estate marketplace and brokerage. Sellers list on their local MLS through flat-fee plans (Starter, Basic, Deluxe, and Premium, $0-$449 upfront plus 0.5% at closing) instead of paying a traditional listing commission, with service available across the US except South Dakota. The company also offers buyer, rental, and AI-powered market intelligence services, and was acquired by Abode in November 2024. Unreal Estate publishes no public developer program or API.
+
+## Company
+
+- [Website](https://www.unrealestate.com/): The simplest way to buy or sell a home for the best price
+- [Company](https://www.unrealestate.com/company): A tech-enabled real estate marketplace and brokerage
+- [Sell](https://www.unrealestate.com/sell): Flat-fee MLS listing plans for home sellers
+- [Rent](https://www.unrealestate.com/rent): Rental listings with cash rebates
+- [Intelligence](https://www.unrealestate.com/intelligence): AI-powered real estate market analytics
+- [Agents](https://www.unrealestate.com/agents): Agent network information
+- [Blog](https://www.unrealestate.com/blog): Residential real estate and PropTech content
+
+## APIs
+
+No public APIs, developer portal, or machine-readable specifications are published by this provider.
+
+## Catalog
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/unreal-estate/refs/heads/main/apis.yml): API Evangelist network profile for Unreal Estate
